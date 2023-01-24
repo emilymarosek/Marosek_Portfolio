@@ -1,0 +1,98 @@
+body, html {
+    background-color: #053225;
+    font-family: 'Martel Sans', sans-serif;
+    color: #F8EBDE;
+}
+
+.nav, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-right: 3rem;
+}
+
+.nav span {
+    color: #92817A;
+    font-size: 64px;
+}
+
+.wrapper {
+    /* background-color: coral; */
+    display: flex;
+}
+
+.left-side {
+    padding: 1rem 11rem;
+}
+
+.left-side p {
+    font-size: 18px;
+}
+
+.left-side h1 {
+    font-size: 128px;
+    margin: 0;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+.left-side h2 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.22em;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.sub-section h3 {
+    font-size: 36px;
+    text-align: right;
+    letter-spacing: 0.22em;
+}
+
+.sub-section p {
+    font-size: 16px;
+    text-align: right;
+}
+
+.sub-section-l {
+    text-align: left;
+}
+.sub-section-l h3{
+    font-size: 36px;
+    letter-spacing: 0.22em;
+    font-style: normal;
+}
+.sub-section-l p {
+    font-size: 16px;
+}
+
+.right-side {
+    max-width: 33%;
+}
+
+.right-side img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    background-color: coral;
+    flex-direction: column;
+    font-size: 32px;
+}
+.copyright {
+    font-size: 20px;
+}
