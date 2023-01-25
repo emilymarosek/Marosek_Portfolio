@@ -88,11 +88,20 @@ body, html {
 }
 
 .footer-content {
+    padding: 2rem;
     display: flex;
-    background-color: coral;
     flex-direction: column;
     font-size: 32px;
 }
 .copyright {
     font-size: 20px;
+}
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon-wrapper img {
+    height: 48px;
+    width: 48px;
 }
